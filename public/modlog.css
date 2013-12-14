@@ -1,0 +1,36 @@
+table {
+	border-collapse: collapse;
+	margin: 0em 1em 1em;
+}
+
+tr {
+}
+tr.boring {
+	color: grey;
+}
+tr:target {
+	background-color: #dee7ec;
+}
+
+tr:hover {
+	background-color: #e5f0f9;
+}
+
+td {
+	padding: 0px 0.5em;
+	border: 1px solid grey;
+}
+
+h2 {
+	padding: 0.5em;
+}
+h2:target {
+	background-color: #dee7ec;
+}
+h3 {
+	padding: 0 1em;
+	margin: 0;
+}
+a.hashlink {
+	color: grey;
+}
